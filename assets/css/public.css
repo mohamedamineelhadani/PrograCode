@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+:root{
+    --primaryColor:#13b2ca;
+    --lightPrimaryColor: #b4eff867;
+    --lightColor :#00ffff;
+    --darkPrimaryColor:#046675;
+    --whiteColor:white;
+    --blackColor :black;
+    --errorColor: #ff5f5f;
+    --warningColor: #ffb347;
+    --successColor: #66ff99;
+}
+
+:root.active{
+  --primaryColor: #2a2a2a;
+  --lightPrimaryColor: #c4c4c467;
+  --lightColor: #00a2ff;
+  --darkPrimaryColor: #046675;
+  --whiteColor: #f0f0f0;
+  --blackColor: #121212;
+  --errorColor: #ff3030;
+  --warningColor: #ffc107;
+  --successColor: #3bcc40;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--lightPrimaryColor);
+    overflow: hidden;
+}
+body::-webkit-scrollbar{
+    display: none;
+}

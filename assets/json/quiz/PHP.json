@@ -1,0 +1,29 @@
+[
+  {
+    "question": "What does PHP stand for?",
+    "options": [
+      { "text": "PHP: Hypertext Preprocessor", "correct": true },
+      { "text": "Private Home Page", "correct": false },
+      { "text": "Personal Hypertext Processor", "correct": false },
+      { "text": "Professional Hyper Processor", "correct": false }
+    ]
+  },
+  {
+    "question": "How do you write a comment in PHP?",
+    "options": [
+      { "text": "// comment", "correct": true },
+      { "text": "# comment", "correct": true },
+      { "text": "/* comment */", "correct": true },
+      { "text": "&lt;!-- comment --&gt;", "correct": false }
+    ]
+  },
+  {
+    "question": "Which symbol is used to declare a variable in PHP?",
+    "options": [
+      { "text": "$", "correct": true },
+      { "text": "%", "correct": false },
+      { "text": "&", "correct": false },
+      { "text": "@", "correct": false }
+    ]
+  }
+]

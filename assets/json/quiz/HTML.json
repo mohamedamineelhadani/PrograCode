@@ -1,0 +1,29 @@
+[
+  {
+    "question": "What does HTML stand for?",
+    "options": [
+      { "text": "Hyper Text Markup Language", "correct": true },
+      { "text": "Home Tool Markup Language", "correct": false },
+      { "text": "Hyperlinks and Text Markup Language", "correct": false },
+      { "text": "Hyperlinking Text Management Language", "correct": false }
+    ]
+  },
+  {
+    "question": "Which tag is used to create a hyperlink?",
+    "options": [
+      { "text": "&lt;a&gt;", "correct": true },
+      { "text": "&lt;link&gt;", "correct": false },
+      { "text": "&lt;href&gt;", "correct": false },
+      { "text": "&lt;url&gt;", "correct": false }
+    ]
+  },
+  {
+    "question": "Which HTML element is used for inserting a line break?",
+    "options": [
+      { "text": "&lt;br&gt;", "correct": true },
+      { "text": "&lt;break&gt;", "correct": false },
+      { "text": "&lt;lb&gt;", "correct": false },
+      { "text": "&lt;newline&gt;", "correct": false }
+    ]
+  }
+]

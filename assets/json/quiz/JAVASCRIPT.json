@@ -1,0 +1,47 @@
+[
+  {
+    "question": "What is the correct syntax?",
+    "options": [
+      { "text": "console.log(\"Hello, World!\");", "correct": true },
+      { "text": "log.console(\"Hello, World!\");", "correct": false },
+      { "text": "print(\"Hello, World!\");", "correct": false },
+      { "text": "console.Log(\"Hello, World!\");", "correct": false }
+    ]
+  },
+  {
+    "question": "Which data type is NOT primitive in JavaScript?",
+    "options": [
+      { "text": "String", "correct": false },
+      { "text": "Object", "correct": true },
+      { "text": "Boolean", "correct": false },
+      { "text": "Number", "correct": false }
+    ]
+  },
+  {
+    "question": "function in JavaScript?",
+    "options": [
+      { "text": "function myFunction() {}", "correct": true },
+      { "text": "def myFunction() {}", "correct": false },
+      { "text": "create myFunction() {}", "correct": false },
+      { "text": "func myFunction() {}", "correct": false }
+    ]
+  },
+  {
+    "question": "\"for\" loop in JavaScript?",
+    "options": [
+      { "text": "for i in range(10):", "correct": false },
+      { "text": "for (i = 0; i < 10; i++) {}", "correct": true },
+      { "text": "for each (i in 10) {}", "correct": false },
+      { "text": "for (let i < 10; i++)", "correct": false }
+    ]
+  },
+  {
+    "question": "add an element to the end of an array?",
+    "options": [
+      { "text": "array.add(item);", "correct": false },
+      { "text": "array.push(item);", "correct": true },
+      { "text": "array.append(item);", "correct": false },
+      { "text": "array.insert(item);", "correct": false }
+    ]
+  }
+]

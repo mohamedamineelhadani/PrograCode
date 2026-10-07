@@ -1,0 +1,197 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.welcome{
+    background-color: var(--primaryColor);
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.welcome .logo{
+    overflow: hidden;
+    width: 330px;
+    height: 330px;
+    padding: 14px;
+    border-radius: 100%;
+    background-color: var(--whiteColor);
+}
+.welcome .logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.welcome h1{
+    font-size: 30px;
+    color: var(--whiteColor);
+    margin:30px 0;
+}
+.welcome p{
+    width: 90%;
+    font-size: 20px;
+    color: var(--whiteColor);
+    letter-spacing: 2px;
+}
+
+.login-system {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login-system article{
+    background-color: var(--primaryColor);
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    align-content: center;
+}
+
+.login-system article h1 {
+    font-size: 35px;
+    color: var(--whiteColor);
+
+}
+.login-system article h1 i{
+    margin-right: 10px;
+}
+
+
+
+.login-system form{
+    width: 100%;
+    height: calc(100% - 20%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.login-system form .group{
+    width: 75%;
+    height: 60px;
+    position: relative;
+    margin-bottom: 25px;
+}
+.login-system form .group input[type="text"],
+.login-system form .group input[type="password"]{
+    height: 100%;
+    width: 100%;
+    border:3px solid var(--primaryColor);
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+    padding-left: 7px;
+}
+.login-system form .group input[type="text"]:focus,
+.login-system form .group input[type="password"]:focus{
+    padding-left: 20px;
+}
+
+.login-system form .group label{
+    position: absolute;
+    z-index: 5;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: var(--primaryColor);
+    padding: 0 5px;
+}
+.login-system form .group label.active{
+    top: 0px;
+    background-color: var(--whiteColor);
+}
+.login-system form .group button{
+    padding: 5px;
+    font-size: 25px;
+    color: var(--primaryColor);
+    border: none;
+    border-radius: 10px;
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.login-system form .group button:hover{
+    background-color: var(--lightPrimaryColor);
+}
+
+
+
+.login-system form .remember{
+    width: 75%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.login-system form .remember input{
+    transform: scale(2.5);
+    margin-right: 20px;
+    cursor: pointer;
+}
+.login-system form .remember label{
+    cursor: pointer;
+    font-size: 20px;
+    color: var(--primaryColor);
+}
+
+
+
+.login-system form input[type="submit"]{
+    border: 3px solid var(--primaryColor);
+    border-radius: 10px;
+    background-color: transparent;
+    font-size: 25px;
+    font-weight: bold;
+    width: 75%;
+    height: 60px;
+    cursor: pointer;
+    margin-bottom:15px ;
+    color: var(--primaryColor);
+}
+.login-system form input[type="submit"]:hover{
+    background-color: var(--primaryColor);
+    color: var(--whiteColor);
+}
+
+.login-system form a{
+    color:var(--primaryColor);
+    font-family:monospace ;
+    font-size: 18px;
+    font-weight:500;
+    margin-bottom: 10px;
+}
+.login-system form a:hover{
+    text-shadow: 0 0 5px var(--primaryColor);
+}
+
+.login-system form .recoveryCode{
+    margin-top: 10px;
+    width: 75%;
+    height: 60px;
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: var(--primaryColor);
+}
+
+.error {
+    color: var(--whiteColor);
+    font-size: 17px;
+    background-color: var(--errorColor);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 1rem;
+}

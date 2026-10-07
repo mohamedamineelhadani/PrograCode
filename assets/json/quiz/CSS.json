@@ -1,0 +1,29 @@
+[
+  {
+    "question": "Which property is used to change text color in CSS?",
+    "options": [
+      { "text": "color", "correct": true },
+      { "text": "text-color", "correct": false },
+      { "text": "font-color", "correct": false },
+      { "text": "foreground-color", "correct": false }
+    ]
+  },
+  {
+    "question": "How do you select an element with id 'main'?",
+    "options": [
+      { "text": "#main", "correct": true },
+      { "text": ".main", "correct": false },
+      { "text": "main", "correct": false },
+      { "text": "*main", "correct": false }
+    ]
+  },
+  {
+    "question": "Which CSS property controls spacing between elements?",
+    "options": [
+      { "text": "margin", "correct": true },
+      { "text": "padding", "correct": false },
+      { "text": "spacing", "correct": false },
+      { "text": "border-spacing", "correct": false }
+    ]
+  }
+]

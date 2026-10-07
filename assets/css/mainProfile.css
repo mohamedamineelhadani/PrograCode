@@ -1,0 +1,120 @@
+.profile-page{
+    width: 100%;
+    border: 2px solid #13b2ca;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 90px;
+}
+.profile-page .profileForm{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.profile-page .profileForm .update-image{
+    position: relative;
+    border-radius: 100%;
+    border: 3px solid #13b2ca;
+    overflow: hidden;
+    width: 350px;
+    height: 350px;
+    padding: 3px;
+}
+.profile-page .profileForm .update-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    object-fit: cover;
+}
+.profile-page .profileForm .update-image input{
+    position: absolute;
+    z-index: 5;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(1.2);
+    width: 90px;
+}
+
+
+
+
+.profile-page .profileForm .update-content{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.profile-page .profileForm .update-content .focus{
+    width: 100%;
+    height: 60px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.profile-page .profileForm .update-content .focus input[type="text"],
+.profile-page .profileForm .update-content .focus input[type="password"]{
+    height: 100%;
+    width: 100%;
+    border:3px solid #3bbdd2;
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+    padding-left: 7px;
+    color: #3bbdd2;
+}
+.profile-page .profileForm .update-content .focus input[type="text"]:focus,
+.profile-page .profileForm .update-content .focus input[type="password"]:focus{
+    padding-left: 20px;
+}
+
+.profile-page .profileForm .update-content .focus label{
+    position: absolute;
+    z-index: 5;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #3bbdd2;
+    padding: 0 5px;
+}
+.profile-page .profileForm .update-content .focus label.active{
+    top: 0px;
+    background-color: white;
+}
+.profile-page .profileForm .update-content .focus button{
+    padding: 5px;
+    font-size: 25px;
+    color: #3bbdd2;
+    border: none;
+    border-radius: 10px;
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.profile-page .profileForm .update-content .focus button:hover{
+    background-color: #e4e7e7;
+}
+
+.profile-page .profileForm .update-content input[type="submit"]{
+    border: 3px solid #3bbdd2;
+    border-radius: 10px;
+    background-color: transparent;
+    font-size: 25px;
+    font-weight: bold;
+    width: 100%;
+    height: 60px;
+    cursor: pointer;
+    margin-bottom:15px ;
+    color: #3bbdd2;
+}
+.profile-page .profileForm .update-content input[type="submit"]:hover{
+    background-color: #3bbdd2;
+    color: white;
+}

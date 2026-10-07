@@ -1,0 +1,68 @@
+.aboutUs{
+    width: 100%;
+    border: 2px solid #13b2ca;
+    border-radius:10px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 60px;
+}
+.aboutUs main .aboutImg{
+    border-radius: 100%;
+    border: 3px solid #13b2ca;
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+    padding: 3px;
+}
+.aboutUs main .aboutImg  img{
+    border-radius: 100%;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.aboutUs main .aboutMedia h1{
+    color: #13b2ca;
+    margin: 7px 0;
+    text-align: center;
+}
+.aboutUs main .aboutMedia div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.aboutUs main .aboutMedia a{
+    text-decoration: none;
+    margin: 0 5px;
+}
+.aboutUs main .aboutMedia a i{
+    color: #13b2ca;
+    border: 3px solid #13b2ca;
+    border-radius: 100%;
+    font-size: 38px;
+    width: 60px;
+    height: 60px;
+    align-content: center;
+    text-align: center;
+}
+.aboutUs main .aboutMedia a i:hover{
+    color: #ffffff;
+    background-color: #13b2ca;
+}
+
+
+
+.aboutUs .aboutInfo{
+    color: #13b2ca;
+    width: 700px;
+    text-align: center;
+}
+.aboutUs .aboutInfo h1{
+    margin-bottom: 30px;
+}
+.aboutUs .aboutInfo p{
+    font-size: 20px;
+    line-height: 30px;
+}

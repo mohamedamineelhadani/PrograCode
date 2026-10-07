@@ -1,0 +1,100 @@
+.search{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.search input{
+    height: 45px;
+    width: 85%;
+    margin-right: 3px;
+    border: 2px solid var(--primaryColor);
+    border-radius: 10px;
+    outline: none;
+    padding-left: 6px;
+    font-size: 20px;
+    color: var(--primaryColor);
+}
+.search input:focus{
+    padding: 20px;
+}
+.search button{
+    height: 45px;
+    width: 45px;
+    border-radius: 10px;
+    border: 2px solid var(--primaryColor);
+    background-color: var(--whiteColor);
+    color: var(--primaryColor);
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.search button:hover{
+    background-color: var(--primaryColor);
+    color: var(--whiteColor);
+}
+
+.cards{
+    padding:10px 0;
+    width: 100%;
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.cards .card{
+    border-radius: 10px;
+    border: solid 2px var(--primaryColor);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 0;
+    min-width: 300px;
+    margin: 0 auto;
+}
+.card:hover{
+    background-color: var(--lightPrimaryColor);
+    box-shadow: 10px -10px 5px var(--primaryColor);
+    transition: all 0.4s ease;
+}
+.card h3{
+    font-weight: bold;
+    text-decoration: underline;
+    color: var(--primaryColor);
+    margin-bottom: 5px;
+}
+.card h1{
+    font-weight: bold;
+    color: var(--primaryColor);
+}
+.card p{
+    width: 90%;
+    margin:20px 0;
+    font-size: 20px;
+    color: var(--primaryColor);
+}
+.card button{
+    background-color:transparent;
+    width: 90%;
+    border-radius: 10px;
+    border: 3px solid var(--primaryColor);
+    color: var(--primaryColor);
+    font-size: 20px;
+    font-weight: bold;
+    padding:15px 0;
+    margin-bottom: 7px;
+    cursor: pointer;
+}
+.card button:hover{
+    background-color:var(--primaryColor);
+    color: var(--whiteColor);
+}
+.card h4{
+    font-weight: bold;
+    text-decoration: underline;
+    color: var(--primaryColor);
+    margin-top: 5px;
+}

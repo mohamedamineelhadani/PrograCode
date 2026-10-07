@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+:root{
+    --primaryColor:#13b2ca;
+    --lightPrimaryColor: #b4eff867;
+    --lightColor :#00ffff;
+    --darkPrimaryColor:#046675;
+    --whiteColor:white;
+    --blackColor :black;
+    --errorColor: #ff5f5f;
+    --warningColor: #ffb347;
+    --successColor: #66ff99;
+}
+
+:root.active{
+  --primaryColor: #2a2a2a;
+  --lightPrimaryColor: #c4c4c467;
+  --lightColor: #00a2ff;
+  --darkPrimaryColor: #046675;
+  --whiteColor: #f0f0f0;
+  --blackColor: #121212;
+  --errorColor: #ff3030;
+  --warningColor: #ffc107;
+  --successColor: #3bcc40;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--lightPrimaryColor);
+}
+.login-container {
+    background: var(--whiteColor);
+    padding: 2rem;
+    border: solid 2px var(--primaryColor);
+    border-radius: 10px;
+    box-shadow: 0 0 20px var(--lightPrimaryColor);
+    width: 100%;
+    max-width: 400px;
+}
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: var(--darkPrimaryColor);
+}
+.form-group {
+    margin-bottom: 1rem;
+}
+.form-group label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 0.5rem;
+    color:var(--darkPrimaryColor);
+}
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid var(--primaryColor);
+    color: var(--darkPrimaryColor);
+    border-radius: 10px;
+    font-size: 17px;
+    outline: none;
+}
+.form-group input:focus {
+    padding-left: 18px;
+    box-shadow: 0 0 5px var(--primaryColor);
+}
+.error {
+    color: var(--whiteColor);
+    font-size: 17px;
+    background-color: var(--errorColor);
+    border-radius: 10px;
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.submit-btn {
+    width: 100%;
+    padding: 9px;
+    background: var(--primaryColor);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.submit-btn:hover {
+    background: var(--darkPrimaryColor);
+}

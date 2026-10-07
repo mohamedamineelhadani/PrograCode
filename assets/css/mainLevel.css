@@ -1,0 +1,38 @@
+.Level h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: var(--primaryColor);
+}
+.Level .level-card {
+  background: var(--whiteColor);
+  border: 2px solid var(--primaryColor);
+  padding: 20px;
+  border-radius: 15px;
+  margin: 15px auto;
+  max-width: 600px;
+  box-shadow: 0 0 10px var(--darkPrimaryColor);
+}
+.Level .level-card p{
+    margin-top: 10px;
+    color: var(--primaryColor);
+    font-size: 18px; 
+}
+.Level .level-card .level-title {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: var(--primaryColor);
+}
+.Level .level-card .progress-bar {
+  width: 100%;
+  background-color: var(--lightPrimaryColor);
+  border-radius: 20px;
+  overflow: hidden;
+}
+.Level .level-card .progress {
+  height: 20px;
+  background-color: var(--primaryColor);
+  text-align: center;
+  color: var(--whiteColor);
+  font-size: 14px;
+  line-height: 20px;
+}

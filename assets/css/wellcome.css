@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    max-width: 600px;
+    width: 80%;
+    text-align: center;
+}
+.container h1 {
+    color: var(--primaryColor);
+}
+.container p {
+    color: var(--darkPrimaryColor);
+    font-size: 18px;
+    margin: 25px 0;
+}
+.container .start-btn {
+    background-color: var(--primaryColor);
+    color: var(--whiteColor);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.container .start-btn:hover {
+    background-color: var(--darkPrimaryColor);
+}
