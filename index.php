@@ -8,9 +8,9 @@
     <meta name="description" content="learn programmation">  
     <meta name="author" content="<?= ADMIN_NAME ?>">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/public.css">
-    <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/wellcome.css">
-    <link rel="icon" href="<?= BASE_URL ?>assets/icon/logo.ico">
+    <link rel="stylesheet" href="<?= ASSETS_URL ?>css/public.css">
+    <link rel="stylesheet" href="<?= ASSETS_URL ?>css/wellcome.css">
+    <link rel="icon" href="<?= ASSETS_URL ?>icon/logo.ico">
     <title>Wellcome</title>
 </head>
 <body>
@@ -19,6 +19,6 @@
         <p>Start your coding journey with us and master HTML, CSS, JavaScript, PHP, and more!</p>
         <a href="<?= BASE_URL ?>pages/mainHome.php"><button class="start-btn">Get Started</button></a>
     </div>
-<script src="<?= BASE_URL ?>assets/js/global.js"></script>
+<script src="<?= ASSETS_URL ?>js/public.js"></script>
 </body>
 </html>

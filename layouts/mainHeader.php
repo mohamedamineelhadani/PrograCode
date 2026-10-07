@@ -11,7 +11,7 @@ require_once __DIR__."/../functions/user.php";
     <h1 class="title"><?= SITE_NAME ?><button id="theme"><i class="fa-regular fa-sun"></i></button></h1>
     <div class="minProfile" onclick="window.location.href='<?= BASE_URL ?>pages/mainProfile.php'">
         <div class="imagePro">
-            <img src="<?= ($profile !="") ? $profile : BASE_URL.'uploads/profile/default.png' ;?>" alt="profile">
+            <img src="<?= ($profile !="") ? $profile : UPLOADS_URL.'profile/default.png' ;?>" alt="profile">
         </div>
         <div class="infoPro">
             <p>Hello !</p>

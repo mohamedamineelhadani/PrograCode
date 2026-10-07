@@ -14,10 +14,10 @@ require_once __DIR__."/updatingLev/index.php";
     <meta name="description" content="learn programmation">  
     <meta name="author" content="<?= ADMIN_NAME ?>">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/public.css">
-    <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/mainHome.css">
-    <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/main.css">
-    <link rel="icon" href="<?= BASE_URL ?>assets/icon/logo.ico">
+    <link rel="stylesheet" href="<?= ASSETS_URL ?>css/public.css">
+    <link rel="stylesheet" href="<?= ASSETS_URL ?>css/mainHome.css">
+    <link rel="stylesheet" href="<?= ASSETS_URL ?>css/main.css">
+    <link rel="icon" href="<?= ASSETS_URL ?>icon/logo.ico">
     <title>Home Page</title>
 </head>
 <body>
@@ -61,7 +61,9 @@ require_once __DIR__."/updatingLev/index.php";
 
 <?php require_once __DIR__."/../layouts/mainFooter.php" ?>
 </div>
-<script src="<?= BASE_URL ?>assets/js/public.js"></script>
-<script src="<?= BASE_URL ?>assets/js/main.js"></script>
+<script src="<?= ASSETS_URL ?>js/public.js"></script>
+<script src="<?= ASSETS_URL ?>js/mainHome.js"></script>
+<script src="<?= ASSETS_URL ?>js/mainPages.js"></script>
+
 </body>
 </html>

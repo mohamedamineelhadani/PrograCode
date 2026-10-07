@@ -19,15 +19,10 @@ $projectRoot = str_replace('\\', '/', realpath(ROOT));
 $basePath = str_replace($docRoot, '', $projectRoot);
 
 
-define("START_URL", "$protocol://" . DOMAIN . $basePath . "/");
-define("BASE_URL", "$protocol://" . DOMAIN . $basePath . "/app/index.php");
+define("BASE_URL", "$protocol://" . DOMAIN . $basePath . "/"); 
 define("ASSETS_URL", "$protocol://" . DOMAIN . $basePath . "/assets/");
 define("UPLOADS_URL", "$protocol://" . DOMAIN . $basePath . "/uploads/");
 
-define("UPLOAD_DIR", ROOT . "/uploads/");
-define("ASSETS_DIR", ROOT . "/assets/");
-define('MAX_FILE_SIZE', 2 * 1024 * 1024);
-define('ALLOWED_TYPES', ['image/jpeg', 'image/png', 'image/gif']);
 
 define("APP_NAME", "Winning Products");
 define('SITE_NAME', 'PrograCode');
@@ -41,6 +36,18 @@ define('DB_HOST', 'localhost');
 define('DB_NAME', 'progracode');
 define('DB_USER', 'root');
 define('DB_PASS', '');
+
+
+
+
+
+
+define("UPLOAD_DIR", ROOT . "/uploads/");
+define("ASSETS_DIR", ROOT . "/assets/");
+define('MAX_FILE_SIZE', 2 * 1024 * 1024);
+define('ALLOWED_TYPES', ['image/jpeg', 'image/png', 'image/gif']);
+
+
 
 
 ?>
